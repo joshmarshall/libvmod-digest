@@ -21,6 +21,8 @@ SYNOPSIS
         digest.hmac_md5(<key>,<message>);
         digest.hmac_sha1(<key>, <message>);
         digest.hmac_sha256(<key>, <message));
+        digest.hmac_sha1_base64(<key>, <message>);
+        digest.hmac_sha256_base64(<key>, <message));
 
         digest.base64(<string>);
         digest.base64url(<string>);
@@ -94,6 +96,8 @@ Prototype
 	        digest.hmac_md5(<key>,<message>);
 	        digest.hmac_sha1(<key>, <message>);
 	        digest.hmac_sha256(<key>, <message));
+	        digest.hmac_sha1_base64(<key>, <message>);
+	        digest.hmac_sha256_base64(<key>, <message));
 Returns
         String
 Description
